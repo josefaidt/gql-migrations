@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "migrations",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authmigrations79a72bcc",
+      "Outputs.UserPoolId"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-migrations-dev-150652-authRole",
+      "UnauthRoleArn": "arn:aws:iam::814763596509:role/amplify-migrations-dev-150652-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::814763596509:role/amplify-migrations-dev-150652-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-migrations-dev-150652-deployment",
+      "UnauthRoleName": "amplify-migrations-dev-150652-unauthRole",
+      "StackName": "amplify-migrations-dev-150652",
+      "StackId": "arn:aws:cloudformation:us-east-1:814763596509:stack/amplify-migrations-dev-150652/2eeaefb0-a17f-11ec-90de-0ef1f5256e39"
+    },
+    "categories": {
+      "auth": {
+        "migrations79a72bcc": {}
+      }
+    }
+  }
+}
