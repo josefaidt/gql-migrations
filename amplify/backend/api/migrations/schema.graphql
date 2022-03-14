@@ -2,4 +2,9 @@ type Todo @model {
   id: ID!
   name: String!
   description: String
+  notes: [Note]
+}
+
+type Note {
+  text: String!
 }
