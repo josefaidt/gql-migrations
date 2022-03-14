@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "serviceName": "AppSync",
+    "defaultAuthType": {
+      "mode": "AMAZON_COGNITO_USER_POOLS",
+      "cognitoUserPoolId": "authmigrations79a72bcc"
+    },
+    "conflictResolution": {
+      "defaultResolutionStrategy": {
+        "type": "AUTOMERGE"
+      }
+    },
+    "apiName": "migrations",
+    "gqlSchemaPath": "/Users/josef/Documents/projects/aws-amplify/reproductions/migrations/amplify/backend/api/migrations/schema.graphql"
+  }
+}

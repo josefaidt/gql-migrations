@@ -4,12 +4,10 @@
       "addmissingownerfields": true,
       "improvepluralization": true,
       "validatetypenamereservedwords": true,
-      "useexperimentalpipelinedtransformer": true,
+      "useexperimentalpipelinedtransformer": false,
       "enableiterativegsiupdates": true,
       "secondarykeyasgsi": true,
-      "skipoverridemutationinputtypes": true,
-      "transformerversion": 2,
-      "suppressschemamigrationprompt": true
+      "skipoverridemutationinputtypes": true
     },
     "frontend-ios": {
       "enablexcodeintegration": true
@@ -33,9 +31,6 @@
     },
     "appsync": {
       "generategraphqlpermissions": true
-    },
-    "project": {
-      "overrides": true
     }
   }
 }
